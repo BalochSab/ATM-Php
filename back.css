@@ -1,0 +1,24 @@
+
+#slider{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: SlideBG 30s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('../img/atm-machine.jpg');
+}
+@keyframes SlideBG {
+    0% {
+    background-image: url('img/atm-machine.jpg');
+    }
+    50% {
+    background-image: url('img/onlineBank.jpg');
+    }
+    100% {
+    background-image: url('img/transfer.jpg');
+    }
+}
+
